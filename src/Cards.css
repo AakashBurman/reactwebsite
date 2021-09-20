@@ -1,0 +1,106 @@
+
+.card {
+  margin: 2.5vw;
+ 
+    float: left;
+    box-shadow: 10vh 10vw 10vh 8vw rgba(4, 184, 109, 0.2);
+    transition: 1s;
+    width: 20vw ;
+    height: 30vw;
+
+    background-color: rgb(2, 2, 2);
+    /* border-bottom-right-radius: 50%; */
+    border-radius:5% 0% 0% 25% ;
+
+    border-top-right-radius: 50%;
+}
+  
+  .card:hover {
+    box-shadow: 0 8vw 16vh 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+   
+    text-align: center;
+    width: 100% ;
+    height:100%;
+  
+    
+    
+  }
+
+.img{
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 50%;
+
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+    font-size: 1vw;
+   
+}
+
+.heading{
+  font-size: 1.5vw;
+  color: rgb(146, 150, 146);
+}
+
+
+
+
+
+.button{
+  border-style: hidden;
+  border-radius: 42%;
+  height: 4vw;
+  width: 9vw;
+  font-size: 1vw;
+  color: rgb(94, 202, 94);
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .card {
+    margin: 6vw;
+   
+      float: left;
+      box-shadow: 1vh 18vw 10vh 18vw rgba(4, 184, 109, 0.2);
+      transition: 1s;
+      width: 38vw ;
+      height: 65vw;
+  
+      background-color: rgb(2, 2, 2);
+      /* border-bottom-right-radius: 50%; */
+      border-radius:5% 0% 0% 25% ;
+  
+      border-top-right-radius: 50%;
+  }
+
+
+  .price {
+    font-weight: bold;
+    color: red;
+    font-size: 3.5vw;
+   
+}
+.heading{
+  font-size: 3.5vw;
+  color: rgb(146, 150, 146);
+}
+.button{
+  border-style: hidden;
+  border-radius: 42%;
+  height: 4vw;
+  width: 9vw;
+  font-size: 2vw;
+  color: rgb(94, 202, 94);
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
+

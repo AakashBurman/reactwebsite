@@ -1,0 +1,48 @@
+.blank{
+
+    background: url(https://bit.ly/3Cbbjft) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 97vw;
+    height: 40vw;
+    display: grid;
+    align-items:center ;
+    padding-left: 3%;
+}
+.para{
+
+
+    color: #fff;
+
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    
+    padding-left: 10%;
+    
+    font-family: "dancing_scriptregular";
+
+}
+
+.box{
+    display: flex;
+    background-color: rgba(0,0,0,.5);
+    width: 45vw;
+    height: 18vh;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'dancing_scriptregular';
+    src: url('./font/dancingscript-variablefont_wght-webfont.woff') format('woff'),
+         url('./font/dancingscript-variablefont_wght-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}

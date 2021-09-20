@@ -1,0 +1,56 @@
+
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background: #114;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+    z-index: 1;
+    margin-bottom: 10vw;
+}
+
+.logo {
+    font-size: 40px;
+    
+    
+    padding-left: 20px;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 22px 26px 22px  26px;
+}
+
+.navbar__item {
+    padding:3vh 26px 26px  0px;
+    cursor: pointer;
+    vertical-align: middle;
+    
+}
+
+.navbar__itemB {
+
+    
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 26pt;
+    background-color: #113;
+    border: none;   
+}
+
+a{
+    color: white;
+}

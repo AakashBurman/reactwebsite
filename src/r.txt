@@ -1,0 +1,52 @@
+
+/*<div>
+<Switch>
+<Route>
+<Route exact path = "/" component = {Cards}/>
+</Route>
+
+<Route>
+<Route exact path = "/" component = {}/>
+</Route>
+
+<Route>
+<Route exact path = "/" component = {}/>
+</Route>
+
+<Route>
+<Route exact path = "/" component = {}/>
+</Route>
+
+<Route>
+<Route exact path = "/" component = {}/>
+</Route>
+
+<Route>
+<Route exact path = "/" component = {}/>
+</Route>
+</div>
+
+
+</Switch>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*<Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/><Cards/>*/
